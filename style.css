@@ -1,0 +1,7 @@
+/* This code remove margins from page 
+and makes the body to take all the height available
+in the page */
+html, body {
+    height: 100%;
+    margin: 0;
+}

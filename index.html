@@ -13,12 +13,20 @@
 
         <header class="header">
             <div class="search-bar">
-                <div class="glass">glass icon</div>
-                <input type="search" name="" id="" value="search bar">
+                <div class="glass"><img src="/part_2/Intermediate_HTML_&_CSS/CSS Grid/Admin-Dashboard/images/magnify.svg" alt="search-glass" height="27"></div>
+                <input type="search" name="search-project" id="search-project">
             </div>
-            <div class="bell">Bell</div>
-            <div class="profile-icon">Profile icon</div>
-            <div class="profile-name">Profile name</div>
+            <div class="theme-btn">
+                <input type="checkbox" id="theme-btn-dark" class="dark">
+                <label for="theme-btn-dark"></label>
+            </div>
+            <div class="badge-container">
+                <div class="badge-container-odin"><a href=""><img src="/part_2/Intermediate_HTML_&_CSS/CSS Grid/Admin-Dashboard/images/odin-lined.png" alt="odin" class="odin" height="15"></a></div>
+                <div class="badge-container-odin-word">
+                    <p>odin</p>
+                </div>
+                <div class="badge-container-github"><a href=""><img src="/part_2/Intermediate_HTML_&_CSS/CSS Grid/Admin-Dashboard/images/GitHub-Mark-32px.png" alt="github" class="github" height="15"></a></div>
+            </div>
         </header>
 
         <div class="sidebar">Sidebar
@@ -44,44 +52,77 @@
 
         </div>
 
-        <nav class="nav"> navigation bar
-            <div class="subheader-two">
-                <div class="open-account"></div>
+        <nav class="nav">
+                <div class="odin-project-text">The Odin Project</div>
                 <div class="btn-container">
-                    <button></button>
-                    <button></button>
-                    <button></button>
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
                 </div>
         </nav>
 
         <main class="main">
-            <div class="projects-shelf">
-                <article class="each-article">
-                    <p class="each-a content">1</p>
-                </article>
-                <article class="each-article">
-                    <p class="each-a content">2</p>
-                </article>
-                <article class="each-article">
-                    <p class="each-a content">3</p>
-                </article>
-                <article class="each-article">
-                    <p class="each-a content">4</p>
-                </article>
-                <article class="each-article">
-                    <p class="each-a content">5</p>
-                </article>
-                <article class="each-article">
-                    <p class="each-a content">6</p>
-                </article>
+            <div class="title-banner">
+                <p class="my-projects">My Projects</p>
+                <p class="js-exercises">JS Exercises</p>
             </div>
-            <div class="a-plus-t">
-                <div class="announcements">
+            
+            <div class="projects-shelf">
+                <article class="border-container">
+                    <div class="each-project">
+                        <h4>Calculator</h4>
+                        <img src="images/calculator.jpg" alt="a calculator" class="each-project-image">
+                        <figcaption>A calculator created with HTML, CSS and JS.</figcaption>
+                        <div class="article-icons-container">
+                            <a href="" class="article-see"><img src="images/see-svgrepo-com.svg" alt=""></a>
+                            <a href="" class="article-github"><img src="images/icons8-github.svg" alt=""></a>            
+                        </div>        
+                    </div>
+                </article>
+                <article class="border-container">
+                    <div class="each-project">
+                        <h4>Rock paper scissors</h4>
+                        <img src="images/rock-paper-scissors.jpg" alt="" class="each-project-image">
+                        <figcaption>A rock, paper, scissors game created with HTML, CSS and JS.</figcaption>
+                        <div class="article-icons-container">
+                            <a href="" class="article-see"><img src="images/see-svgrepo-com.svg" alt=""></a>
+                            <a href="" class="article-github"><img src="images/icons8-github.svg" alt=""></a>            
+                        </div>        
+                    </div>
+                </article>    
+                <article class="border-container">
+                    <div class="each-project">
+                        <h4>Etch a sketch</h4>
+                        <img src="images/rsz_etch_a_sketch.png" alt="" class="each-project-image">
+                        <figcaption>A simple drawing toy created with HTML, CSS and JS.</figcaption>
+                        <div class="article-icons-container">
+                            <a href="" class="article-see"><img src="images/see-svgrepo-com.svg" alt=""></a>
+                            <a href="" class="article-github"><img src="images/icons8-github.svg" alt=""></a>            
+                        </div>        
+                    </div>
+                </article>
+                <article class="border-container">
+                    <div class="each-project">
+                        <h4>Sign-up form</h4>
+                        <img src="images/rsz_sign-up.png" alt="" class="each-project-image"> 
+                        <figcaption>A sign-up page created with HTML & CSS (Grid)</figcaption>
+                        <div class="article-icons-container">
+                            <a href="" class="article-see"><img src="images/see-svgrepo-com.svg" alt=""></a>
+                            <a href="" class="article-github"><img src="images/icons8-github.svg" alt=""></a>            
+                        </div>        
+                    </div>
+                </article>    
+            </div>
+            <div class="blocks-to-left">
+                <div class="js-exercises-list">
                     <p class="each-annoucement">A</p>
                     <p class="each-annoucement">B</p>
                     <p class="each-annoucement">C</p>
                 </div>
-                <div class="trending">
+
+                
+                <p>CSS Exercises</p>
+                <div class="css-exercises">
                     <p class="each-trending">I</p>
                     <p class="each-trending">II</p>
                     <p class="each-trending">III</p>
@@ -90,7 +131,7 @@
             </div>
         </main>
 
-        <footer>Footer</footer>
+        <!-- <footer>Footer</footer> -->
         
     </div>
     

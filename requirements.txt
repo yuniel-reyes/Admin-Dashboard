@@ -1,0 +1,9 @@
+Admin-Dashboard
+
+Admin Dashboard created using CSS Grid Layout
+
+1. Layout
+- Write out the HTML elements for the sidebar, 
+header and main-content containers.
+- Style the document and make it look closer to the 
+final result --grid boxes
